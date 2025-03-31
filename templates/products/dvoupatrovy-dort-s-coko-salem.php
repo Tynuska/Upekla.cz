@@ -9,21 +9,21 @@
                 <h1>Dvoupatrový dort s čoko šálem</h1>
 
                 <div class="post__fig">
-                    <img src="images/products/dvoupatrovy-dort-3.jpg" alt="" width="400" />	
-                </div>					
+                    <img src="images/products/dvoupatrovy-dort-3.jpg" alt="" width="400" />
+                </div>
                 <div class="post__meta">
                     <span class="icon icon--cake"></span>
                     <p>Cena<br>Dortu</p>
                     <p class="post__meta__price"><?= $config->get_product_price(); ?></p>
-                </div>	
+                </div>
 
 <div class="post__meta">
 <span class="icon icon--cake"></span>
 <p style="max-width: 190px">Cena dortu s&nbsp;bílým čokošálem</p>
-<p class="post__meta__price">2980&nbsp;Kč</p>
+<p class="post__meta__price">3080&nbsp;Kč</p>
 </div>
-                        
-                        
+
+
                 <div class="post__meta">
                     <span class="icon icon--diameter"></span>
                     <p>průměr spodního patra: 30 cm<br />průměr horního patra: 23 cm<br />trvanlivost: 48 hodin</p>
@@ -50,13 +50,13 @@
                         <li>mascarpone</li>
                         <li>čokoláda</li>
                         <li>ovoce</li>
-                    </ul>	
+                    </ul>
                 </div>
 
 
                 <div class="post__fig">
                     <img src="images/products/dvoupatrovy-dort-2.jpg" alt="" width="400" />
-                </div>	
+                </div>
             </div>
 
             <div class="post__row">
@@ -71,13 +71,13 @@
                         <li>smetana</li>
                         <li>vejce</li>
                         <li>mascarpone</li>
-                    </ul>	
+                    </ul>
                 </div>
 
 
                 <div class="post__fig">
                     <img src="images/products/dvoupatrovy-dort-1.jpg" alt="" width="400" />
-                </div>	
+                </div>
             </div>
 
         </div><!-- /post -->
@@ -88,7 +88,7 @@
 
     </div><!-- /section -->
 
-    <div class="content__bg js-lazy" data-src="images/bg-6.png"></div>			
+    <div class="content__bg js-lazy" data-src="images/bg-6.png"></div>
 </div><!-- /content -->
 
 <?php include_once 'similar.php'; ?>

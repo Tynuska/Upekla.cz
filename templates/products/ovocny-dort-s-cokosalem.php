@@ -9,17 +9,17 @@
 						<h1>Ovocný dort s čoko šálem</h1>
 
 						<div class="post__fig">
-							<img src="images/products/ovocny-dort-s-cokosalkem-1.jpeg" alt="" width="400" />	
-						</div>					
+							<img src="images/products/ovocny-dort-s-cokosalkem-1.jpeg" alt="" width="400" />
+						</div>
 						<div class="post__meta">
 							<span class="icon icon--cake"></span>
 							<p>Cena<br>Dortu</p>
 							<p class="post__meta__price"><?= $config->get_product_price();?></p>
-						</div>	
+						</div>
 						<div class="post__meta">
 							<span class="icon icon--cake"></span>
 							<p style="max-width: 190px">Cena dortu s&nbsp;bílým čokošálem</p>
-							<p class="post__meta__price">1450&nbsp;Kč</p>
+							<p class="post__meta__price">1550&nbsp;Kč</p>
 						</div>
 						<div class="post__meta">
 							<span class="icon icon--diameter"></span>
@@ -45,13 +45,13 @@
 								<li>mascarpone</li>
 								<li>čokoláda</li>
 								<li>ovoce</li>
-							</ul>	
+							</ul>
 						</div>
-						
+
 
 						<div class="post__fig">
 							<img src="images/products/ovocny-dort-s-cokosalkem-2.jpeg" alt="" width="400" />
-						</div>	
+						</div>
 					</div>
 
 					<div class="post__row">
@@ -66,13 +66,13 @@
 								<li>mascarpone</li>
 								<li>smetana</li>
 								<li>mouka</li>
-							</ul>	
+							</ul>
 						</div>
-						
+
 
 						<div class="post__fig">
 							<img src="images/products/ovocny-dort-s-cokosalkem-3.jpeg" alt="" width="400" />
-						</div>	
+						</div>
 					</div>
 
 				</div><!-- /post -->
@@ -83,7 +83,7 @@
 
 			</div><!-- /section -->
 
-			<div class="content__bg js-lazy" data-src="images/bg-6.png"></div>			
+			<div class="content__bg js-lazy" data-src="images/bg-6.png"></div>
 		</div><!-- /content -->
 
 		<?php include 'similar.php'; ?>

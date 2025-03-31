@@ -43,7 +43,7 @@ class Config {
         ],
     ];
     public $products = [
-       'vanoce' => [
+       /*'vanoce' => [
             'vanocni-cukrovi' => [
                 'title' => 'Vánoční cukroví',
                 'template' => 'products/vanocni-cukrovi.php',
@@ -72,7 +72,7 @@ class Config {
                 'description' => 'Z důvodu změny legislativy bohužel již nemůžeme nabízet. Moc nás to mrzí a omlouváme se.',
                 'info' => 'Z důvodu změny legislativy bohužel již nemůžeme nabízet. Moc nás to mrzí a omlouváme se.'
             ]
-        ],
+        ],*/
        /*'velikonocni-nabidka' => [
             'velikonocni-mazanec' => [
                 'title' => 'Velikonoční mazanec',
@@ -107,7 +107,7 @@ class Config {
                 'title' => 'Dýňový cheesecake',
                 'template' => 'products/dynovy-cheesecake.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '950',
                 'ico' => 'cake',
                 'tags' => 'dýně, sušenky, smetana',
                 'description' => 'Svěží dort s příjemnou příchutí  skořice, zázvoru a hřebíčku.'
@@ -125,7 +125,7 @@ class Config {
                 'title' => 'Kokosový dort s čokoládou',
                 'template' => 'products/kokosovy-dort.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '990',
                 'ico' => 'cake',
                 'tags' => 'kakao, kokos, smetana',
                 'description' => 'Božský šťavnatý dort s bílou a hořkou čokoládou, plný kokosu, smetany a s kapkou rumu.'
@@ -134,7 +134,7 @@ class Config {
                 'title' => 'Banánový dort s karamelem a lískovými ořechy',
                 'template' => 'products/bananovy-dort-s-karamelem-a-liskovymi-orechy.php',
                 'class' => 'sub-page',
-                'price' => '990',
+                'price' => '1060',
                 'ico' => 'cake',
                 'tags' => 'med, banány, smetana',
                 'description' => 'Kakaový korpus naplněný vanilkovým našlehaným krémem, karamelem a zkaramelizovanými banány.'
@@ -143,7 +143,7 @@ class Config {
                 'title' => 'Banánový dort',
                 'template' => 'products/bananovy-dort.php',
                 'class' => 'sub-page',
-                'price' => '950',
+                'price' => '990',
                 'ico' => 'cake',
                 'tags' => 'mascarpone, banány, smetana',
                 'description' => 'Šťavnatý banánový korpus plněný lehkým vanilkovým krémem, domácím karamelem a zkaramelizovanými banány.'
@@ -152,7 +152,7 @@ class Config {
                 'title' => 'Citrónový cheesecake',
                 'template' => 'products/citronovy-cheesecake.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => 'citron, tvaroh',
                 'description' => 'Sametový, lehký a osvěžující dort. Nádherná kombinace kakaa a citrónu.'
@@ -161,7 +161,7 @@ class Config {
                 'title' => 'Citrónový dort s mákem',
                 'template' => 'products/citronovy-dort-s-makem.php',
                 'class' => 'sub-page',
-                'price' => '1150',
+                'price' => '1250',
                 'ico' => 'cake',
                 'tags' => 'bez mouky, citron, mascarpone',
                 'description' => 'Vláčný makový korpus a svěží citrónový krém. Ozdobený medailonky z bílé čokolády a máku. Bez mouky.'
@@ -170,7 +170,7 @@ class Config {
                 'title' => 'Čokoládový dort s čokoládovým krémem',
                 'template' => 'products/cokoladovy-dort-s-cokoladovym-kremem.php',
                 'class' => 'sub-page',
-                'price' => '990',
+                'price' => '1060',
                 'ico' => 'cake',
                 'tags' => 'čokoláda, kakao, smetana',
                 'description' => 'Šťavnatý čokoládový korpus s čokoládovým krémem z másla, čokolády a smetany s vrstvičkou višňové zavařeniny svařené s kapkou višňovice.'
@@ -188,7 +188,7 @@ class Config {
                 'title' => 'Čokoládový cheesecake',
                 'template' => 'products/cokoladovy-cheesecake.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => 'čokoláda, sušenky, čerstvý sýr',
                 'description' => 'Úžasná kombinace hutné čokolády a lehkého tvarohu.'
@@ -197,7 +197,7 @@ class Config {
                 'title' => 'Dvoupatrový dort s čoko šálem',
                 'template' => 'products/dvoupatrovy-dort-s-coko-salem.php',
                 'class' => 'sub-page',
-                'price' => '2780',
+                'price' => '2880',
                 'ico' => 'cake',
                 'tags' => 'čokoláda, ovoce, smetana',
                 'description' => 'Nadýchaný vanilkový korpus s lehkým vanilkovým krémem, s hořko mléčným čokoládovým šálem a kopicí čerstvého ovoce.'
@@ -206,7 +206,7 @@ class Config {
                 'title' => 'Karamelový cheesecake',
                 'template' => 'products/karamelovy-cheesecake.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => 'čokoláda, karamel, mascarpone',
                 'description' => 'Vrstva tvarohu s rozpuštěnou bílou čokoládou na karamelovém sušenkovém základu. Navrch našlehaný karamelový krém'
@@ -215,7 +215,7 @@ class Config {
                 'title' => 'Makový dort s mascarpone a ovocem',
                 'template' => 'products/makovy-dort-s-mascarpone-a-ovocem.php',
                 'class' => 'sub-page',
-                'price' => '950',
+                'price' => '990',
                 'ico' => 'cake',
                 'tags' => 'bez mouky, ovoce, smetana',
                 'description' => 'Velice lehký letní dort. Nadýchaný makový korpus, šlehačka s mascarpone a ovoce v želé.'
@@ -233,7 +233,7 @@ class Config {
                 'title' => 'Mandlový dort',
                 'template' => 'products/mandlovy-dort.php',
                 'class' => 'sub-page',
-                'price' => '950',
+                'price' => '990',
                 'ico' => 'cake',
                 'tags' => 'bez mouky, bez laktózy, mandle',
                 'description' => 'Vrstvy sněhových plátů plných mletých mandlí s jemným žloutkovým krémem. Prosypané nasekanými mandlemi.'
@@ -242,7 +242,7 @@ class Config {
                 'title' => 'Medovník s karamelovým krémem',
                 'template' => 'products/medovnik-s-karamelovym-kremem.php',
                 'class' => 'sub-page',
-                'price' => '990',
+                'price' => '1060',
                 'ico' => 'cake',
                 'tags' => 'karamel, med',
                 'description' => 'Medové pláty promazané našlehaným karamelovým krémem'
@@ -251,7 +251,7 @@ class Config {
                 'title' => 'Mocca dort',
                 'template' => 'products/mocca-dort.php',
                 'class' => 'sub-page',
-                'price' => '880',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => 'bez mouky, bez laktózy, kokos',
                 'description' => 'Sněhové kokosové pláty plněné jemným kávovým krémem.'
@@ -260,7 +260,7 @@ class Config {
                 'title' => 'Mrkvový dort',
                 'template' => 'products/mrkvovy-dort.php',
                 'class' => 'sub-page',
-                'price' => '950',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => 'mrkev, ořechy, skořice',
                 'description' => 'Vláčný dort s ořechy s vrstvou jemného krému. 12 mrkviček z cukrové hmoty.'
@@ -269,7 +269,7 @@ class Config {
                 'title' => 'Ovocný dort s mascarpone',
                 'template' => 'products/ovocny-dort-s-mascarpone.php',
                 'class' => 'sub-page',
-                'price' => '950',
+                'price' => '990',
                 'ico' => 'cake',
                 'tags' => 'ovoce, smetana, mascarpone',
                 'description' => 'Vynikající letní dort. Vrstva mascarpone se šlehačkou a kysanou smetanou na nadýchaném piškotu, s  ovocem zalitým želé.'
@@ -287,7 +287,7 @@ class Config {
                 'title' => 'Perníkový cheesecake',
                 'template' => 'products/pernikovy-cheesecake.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => 'med, kakao, mascarpone',
                 'description' => 'Cheesecake s čokoládou, mandlemi, karamelovou šlehačkou a korpusem, který voní po perníčkách'
@@ -296,7 +296,7 @@ class Config {
                 'title' => 'Marcipánový dort',
                 'template' => 'products/marcipanovy-dort.php',
                 'class' => 'sub-page',
-                'price' => '1020',
+                'price' => '1120',
                 'ico' => 'cake',
                 'tags' => 'pudink, smetana, vanilka',
                 'description' => 'Nadýchaný vanilkový korpus s lehkým vanilkovým krémem a šlehačkou. Potažený marcipánem a ozdobený růžičkou.'
@@ -305,7 +305,7 @@ class Config {
                 'title' => 'Pusinkový dort',
                 'template' => 'products/pusinkovy-dort.php',
                 'class' => 'sub-page',
-                'price' => '1090',
+                'price' => '1180',
                 'ico' => 'cake',
                 'tags' => 'arašídy, smetana, karamel',
                 'description' => 'Slavnostní dort s vrstvami karamelu se slanými buráky, tmavé čokolády, mascarpone s bílou čokoládou a flambovanými pusinkami.'
@@ -314,7 +314,7 @@ class Config {
                 'title' => 'Větrníkový dort',
                 'template' => 'products/vetrnikovy-dort.php',
                 'class' => 'sub-page',
-                'price' => '1020',
+                'price' => '1110',
                 'ico' => 'cake',
                 'tags' => 'karamel, smetana, vanilka',
                 'description' => 'Nadýchané vrstvy odpalovaného těsta s lehkým vanilkovým krémem z pravé vanilky a s karamelovou šlehačkou z domácího karamelu.'
@@ -323,7 +323,7 @@ class Config {
                 'title' => 'Fit dort',
                 'template' => 'products/fit-dort.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => 'bez mouky, kakao, maliny',
                 'description' => 'Kakaový korpus s mandlovou moukou, smetanovým krémem a vrstvou malin v želé.'
@@ -341,7 +341,7 @@ class Config {
                 'title' => 'Cheesecake s mákem',
                 'template' => 'products/cheesecake-s-makem.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '970',
                 'ico' => 'cake',
                 'tags' => ' tvaroh, mák, bílá čokoláda',
                 'description' => 'Smetanový krém s tvarohem a mákem, kapkou rumu a špetkou skořice na sušenkovém kakaovém základu.'
@@ -350,7 +350,7 @@ class Config {
                 'title' => 'Dort Pavlova',
                 'template' => 'products/dort-pavlova.php',
                 'class' => 'sub-page',
-                'price' => '1090',
+                'price' => '1180',
                 'ico' => 'cake',
                 'tags' => ' bez mouky, šlehačka, ovoce',
                 'description' => 'Sněhový korpus se šlehačkou s mascarpone nazdobený čerstvým sezónním ovocem.'
@@ -360,7 +360,7 @@ class Config {
                 'title' => 'Ovocný dort s čoko šálem',
                 'template' => 'products/ovocny-dort-s-cokosalem.php',
                 'class' => 'sub-page',
-                'price' => '1350',
+                'price' => '1440',
                 'ico' => 'cake',
                 'tags' => ' čokoláda, ovoce, vanilka',
                 'description' => 'Nadýchaný vanilkový korpus s lehkým vanilkovým krémem, s hořko mléčným nebo bílým čokoládovým šálem a kopou čerstvého ovoce.'
@@ -380,7 +380,7 @@ class Config {
                 'title' => 'Sváteční dort',
                 'template' => 'products/svatecni-dort.php',
                 'class' => 'sub-page',
-                'price' => '1250',
+                'price' => '1340',
                 'ico' => 'cake',
                 'tags' => ' vanilka, pudink, bílá čokoláda',
                 'description' => 'Vanilkový korpus s vanilkovým krémem, čerstvým ovocem a s bílou čokoládou po obvodu. Ozdobený perličkami a pusinkami.'
@@ -389,7 +389,7 @@ class Config {
                 'title' => 'Slavnostní dort',
                 'template' => 'products/slavnostni-dort.php',
                 'class' => 'sub-page',
-                'price' => '1250',
+                'price' => '1340',
                 'ico' => 'cake',
                 'tags' => ' kakao, maliny, bílá čokoláda',
                 'description' => 'Kakaový korpus s malinovým krémem a bílou čokoládou po obvodu. Ozdobený perličkami a pusinkami'
@@ -399,7 +399,7 @@ class Config {
                 'title' => ' Čokoládový dort s ovocem',
                 'template' => 'products/cokoladovy-dort-s-ovocem.php',
                 'class' => 'sub-page',
-                'price' => '1250',
+                'price' => '1340',
                 'ico' => 'cake',
                 'tags' => ' kakao, čokoláda, ovoce',
                 'description' => 'Kakaový korpus s krémem z mléčné čokolády, šlehačky a mascarpone. Pokrytý čokoládovým krémem. Vrstva višňové marmelády svařené s kapkou višňovice. Ozdobený čerstvým ovocem.'
@@ -410,7 +410,7 @@ class Config {
                 'title' => 'Jablečný koláč s vanilkovým krémem',
                 'template' => 'products/jablecny-kolac-s-vanilkovym-kremem.php',
                 'class' => 'sub-page',
-                'price' => '920',
+                'price' => '980',
                 'ico' => 'pie',
                 'tags' => 'karamel, mandle, jablka',
                 'description' => 'Dokonalé spojení křehkého máslového těsta, zkaramelizované jablečné náplně, našlehaného vanilkového krému a mandlí.'
@@ -419,12 +419,12 @@ class Config {
                 'title' => 'Velikonoční mazanec',
                 'template' => 'products/velikonocni-mazanec.php',
                 'class' => 'sub-page',
-                'price' => '390',
+                'price' => '470',
                 'ico' => 'pie',
                 'tags' => 'brusinky, mandle, mléko',
                 'description' => 'Sametově hebký. S mandlemi a brusinkami. Vynikající.'
               ],
-            'bananova-babovka' => [
+            /*'bananova-babovka' => [
                 'title' => 'Banánová bábovka',
                 'template' => 'products/bananova-babovka.php',
                 'class' => 'sub-page',
@@ -432,12 +432,12 @@ class Config {
                 'ico' => 'pie',
                 'tags' => 'banány, ovoce',
                 'description' => 'Vláčná, šťavnatá a voňavá bábovka plná banánů.'
-            ],
+            ],*/
             'bananovy-chlebicek-banana-bread' => [
                 'title' => 'Banánový chlebíček (Banana bread)',
                 'template' => 'products/bananovy-chlebicek-banana-bread.php',
                 'class' => 'sub-page',
-                'price' => '650',
+                'price' => '710',
                 'ico' => 'pie',
                 'tags' => 'banány, ovoce',
                 'description' => 'Vláčný, šťavnatý a voňavý chlebíček plný banánů.'
@@ -455,7 +455,7 @@ class Config {
                 'title' => 'Dvojctihodné koláčky',
                 'template' => 'products/dvojctihodne-kolacky.php',
                 'class' => 'sub-page',
-                'price' => '50',
+                'price' => '55',
                 'ico' => 'pie',
                 'tags' => 'kynuté, povidla, tvaroh',
                 'description' => 'Vláčné a nadýchané koláčky s povidly navrch a tvarohem uvnitř.'
@@ -464,12 +464,12 @@ class Config {
                 'title' => 'Ořechový koláč s čokoládou',
                 'template' => 'products/orechovy-kolac-s-cokoladou.php',
                 'class' => 'sub-page',
-                'price' => '850',
+                'price' => '950',
                 'ico' => 'pie',
                 'tags' => 'bez mouky, čokoláda, ořechy',
                 'description' => 'Šťavnatý kakaový koláč s mletými lískovými ořechy, politý čokoládou složenou z čokolády, másla a šlehačky a po obvodu posypaný opraženými lískovými ořechy.'
             ],
-            'orechovy-kolac-s-karamelem' => [
+            /*'orechovy-kolac-s-karamelem' => [
                 'title' => 'Ořechový koláč s karamelem',
                 'template' => 'products/orechovy-kolac-s-karamelem.php',
                 'class' => 'sub-page',
@@ -477,12 +477,12 @@ class Config {
                 'ico' => 'pie',
                 'tags' => 'karamelem, smetana, ořechy',
                 'description' => 'Opražené domácí vlašské ořechy zalité vláčným jemně nahořklým karamelem na křehkém těstě.'
-            ],
+            ],*/
             'skoricove-sneky' => [
                 'title' => 'Skořicové šneky',
                 'template' => 'products/skoricove-sneky.php',
                 'class' => 'sub-page',
-                'price' => '750',
+                'price' => '810',
                 'ico' => 'pie',
                 'tags' => 'kynuté, skořice, vanilka',
                 'description' => 'Máslem napuštěné, obalené ve skořici, extra sladké. Jsou naprosto neodolatelné.'
@@ -493,7 +493,7 @@ class Config {
                 'title' => 'Cookies',
                 'template' => 'products/cookies.php',
                 'class' => 'sub-page',
-                'price' => '50',
+                'price' => '55',
                 'ico' => 'candy',
                 'tags' => 'čokoláda, ovoce, mandle',
                 'description' => 'Křehké sušenky s rozpuštěnou bílou čokoládou, nasekanými kousky mléčné čokolády, s mandlemi a brusinkami.'
@@ -502,7 +502,7 @@ class Config {
                 'title' => 'Linecká kolečka',
                 'template' => 'products/linecka-kolecka.php',
                 'class' => 'sub-page',
-                'price' => '50',
+                'price' => '55',
                 'ico' => 'candy',
                 'tags' => 'marmeláda',
                 'description' => 'Vynikající křehké linecké těsto s malinovou marmeládou.'
@@ -520,7 +520,7 @@ class Config {
                 'title' => 'Mega pusinky s čokoládou nebo bez',
                 'template' => 'products/mega-pusinky-s-cokoladou-nebo-bez.php',
                 'class' => 'sub-page',
-                'price' => '75',
+                'price' => '80',
                 'ico' => 'candy',
                 'tags' => 'bez mouky, čokoláda',
                 'description' => 'Vyšlehaný bílek s nasekanou mléčnou čokoládou. Navrch křehké, uvnitř vláčné.'

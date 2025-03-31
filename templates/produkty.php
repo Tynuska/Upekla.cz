@@ -6,9 +6,9 @@
                         <li <?= ($config->get_page() == 'produkty' && empty($config->get_page_category())) ? 'class="is-active"' : ''?>>
 							<a href="produkty" class="subnav__btn"><span class="icon icon--heart"></span>Všechny dobroty</a>
 						</li>
-                        <li <?= ($config->get_page_category() == 'vanoce') ? 'class="is-active"' : ''?>>
+                        <!--<li <?= ($config->get_page_category() == 'vanoce') ? 'class="is-active"' : ''?>>
                             <a href="produkty/vanoce" class="subnav__btn"><span class="icon icon--sweets"></span>Vánoce</a>
-                        </li>
+                        </li>-->
 						<li <?= ($config->get_page_category() == 'dorty') ? 'class="is-active"' : ''?>>
 							<a href="produkty/dorty" class="subnav__btn"><span class="icon icon--cake"></span>Dorty</a>
 						</li>

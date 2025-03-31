@@ -4509,6 +4509,10 @@ html:not(.document-scrolled) .page-404 .sitelogo {
   color: #c8002f;
 }
 
+.form__input.is-filled[type="datetime-local"] {
+  background-image: none;
+}
+
 .form__error {
   font-family: 'Montserrat', sans-serif;
   display: block;

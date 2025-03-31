@@ -95,8 +95,8 @@ if (isset($_POST['send']) && $_POST['i7'] == 1) {
                             </div>
 
                             <div class="form__row">
-                                <label class="form__label" for="i5">Datum dodání</label>
-                                <input type="text" id="i5" name="i5" value="" class="form__input" required="required"/>
+                                <label class="form__label" for="i5">Datum a přibližný čas vyzvednutí</label>
+                                <input type="datetime-local" id="i5" name="i5" value="" class="form__input" required="required"/>
                             </div>
 
                             <div class="form__row">

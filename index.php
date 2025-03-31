@@ -119,18 +119,18 @@ include_once 'inc/config.php';
                 </div><!-- /footer__main -->
                 <div class="footer__main">
                     <div class="footer__copy">
-                        <span>Copyright © 2024</span> | 
+                        <span>Copyright © 2025</span> |
                         <a href="zasady-ochrany-soukromi">Ochrana osobních údajů</a>
                         | Vytvořeno <a href="https://rvlt.digital" target="_blank">RVLT</a>
                     </div>
                 </div><!-- /footer__main -->
-            </div>		
+            </div>
         </div><!-- /footer -->
         <div class="cookie-info">
             <div class="section">
                 <div class="cookie-info__container">
                     <div class="cookie-info__main">
-                        <p><b>Stejně jako my, i naše webové stránky používají k poskytování svých služeb různé dobrůtky (soubory Cookies).</b><br/>Více informací o těchto dobrotách naleznete <a href="informace-o-cookies">zde.</a></p>			
+                        <p><b>Stejně jako my, i naše webové stránky používají k poskytování svých služeb různé dobrůtky (soubory Cookies).</b><br/>Více informací o těchto dobrotách naleznete <a href="informace-o-cookies">zde.</a></p>
                     </div>
                     <div class="cookie-info__aside">
                         <button class="btn">Souhlasím s jejich zpracováním</button>
@@ -265,7 +265,12 @@ include_once 'inc/config.php';
                     yearSuffix: ''
                 };
                 $.datepicker.setDefaults($.datepicker.regional['cs']);
-                $("#i5").datepicker({dateFormat: 'dd.mm.yy', minDate: +1, firstDay: 1});
+                /*$("#i5").datepicker({
+                    dateFormat: 'dd.mm.yy ',
+                    minDate: +1,
+                    firstDay: 1,
+                    constrainInput: false
+                });*/
             });
         </script>
     </body>

@@ -17,8 +17,8 @@
 							<p class="post__meta__price"><?= $config->get_product_price();?></p>
 						</div>
 
-						 <!-- <p> <br />OMLOUVÁME SE VŠEM PŘÍPADNÝM ZÁJEMCŮM O VÁNOČNÍ CUKROVÍ. ZASTAVILI JSME OBJEDNÁVKY, NAŠE KAPACITA JE NAPLNĚNA.</p> -->
-						<!-- <p>  <br />JE NÁM LÍTO, JESTLI SE NA VÁS NEDOSTALO. JE MOŽNÉ, ŽE V TÝDNU OD 18. 12. BUDEME MÍT NA PULTECH CUKROVÍ NA PRODEJ </p>  -->
+						 <p>OMLOUVÁME SE VŠEM PŘÍPADNÝM ZÁJEMCŮM O VÁNOČNÍ CUKROVÍ. ZASTAVILI JSME OBJEDNÁVKY, NAŠE KAPACITA JE NAPLNĚNA.</p>
+						<p>JE NÁM LÍTO, JESTLI SE NA VÁS NEDOSTALO. JE MOŽNÉ, ŽE V TÝDNU OD 18. 12. BUDEME MÍT NA PULTECH CUKROVÍ NA PRODEJ. </p> 
 
 						<p>Mix 10 druhů vánočního cukroví. Na fotu 1 kg. Možnost vyzvednutí v našich cukrárnách v Příbrami nebo v Písku, a to buď v pondělí 9. 12., nebo ve čtvrtek 19. 12. 2024. Vždy kdykoliv od 7 do 18 hodin.</p>
 

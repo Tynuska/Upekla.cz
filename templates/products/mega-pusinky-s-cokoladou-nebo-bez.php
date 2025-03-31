@@ -9,21 +9,21 @@
 						<h1>Mega pusinky s čokoládou nebo bez</h1>
 
 						<div class="post__fig">
-							<img src="images/products/mega-pusinky-1.jpg" alt="" width="400" />	
-						</div>	
-						
+							<img src="images/products/mega-pusinky-1.jpg" alt="" width="400" />
+						</div>
+
 						<div class="post__meta">
 							<span class="icon icon--candy"></span>
 							<p>Cena<br> pusinky bez čokolády </p>
 							<p class="post__meta__price"><?= $config->get_product_price();?></p>
 						</div>
-						
+
 						<div class="post__meta">
 							<span class="icon icon--cake"></span>
 							<p style="max-width: 190px">Cena pusinky s čokoládou</p>
-							<p class="post__meta__price">80&nbsp;Kč</p>
+							<p class="post__meta__price">85&nbsp;Kč</p>
 						</div>
-						
+
 						<div class="post__meta">
 							<span class="icon icon--diameter"></span>
 							<p>velikost cca 11 cm</p>
@@ -45,13 +45,13 @@
 								<li>cukr</li>
 								<li>možnost dodat pusinky bez čokolády</li>
 								<li>vhodné pro bezlepkovou dietu</li>
-							</ul>	
+							</ul>
 						</div>
-						
+
 
 						<div class="post__fig">
 							<img src="images/products/mega-pusinky-2.jpg" alt="" width="400" />
-						</div>	
+						</div>
 					</div>
 
 					<div class="post__row">
@@ -63,13 +63,13 @@
 
 							<ul>
 								<li>bílky</li>
-							</ul>	
+							</ul>
 						</div>
-						
+
 
 						<div class="post__fig">
 							<img src="images/products/sladkost_textura.jpg" alt="" width="400" />
-						</div>	
+						</div>
 					</div>
 
 				</div><!-- /post -->
@@ -80,7 +80,7 @@
 
 			</div><!-- /section -->
 
-			<div class="content__bg js-lazy" data-src="images/bg-6.png"></div>			
+			<div class="content__bg js-lazy" data-src="images/bg-6.png"></div>
 		</div><!-- /content -->
 
 		<?php include_once 'similar.php'; ?>
